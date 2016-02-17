@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EA9213C33B484FA6F4E01E1EFE52C0B00F423065" : 0,
+    "AD7D417425C7364EB5C5AC9AC79E9FE90904F880" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "83613F8E-E4BB-4045-AEA5-E1E12EA6FB1C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EA9213C33B484FA6F4E01E1EFE52C0B00F423065" : "BlackfishSample\/blackfish\/",
+    "AD7D417425C7364EB5C5AC9AC79E9FE90904F880" : "BlackfishSample\/echo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BlackfishSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BlackfishSample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/elliottminns\/echo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD7D417425C7364EB5C5AC9AC79E9FE90904F880"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/elliottminns\/blackfish.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA9213C33B484FA6F4E01E1EFE52C0B00F423065"
+    }
+  ]
+}
