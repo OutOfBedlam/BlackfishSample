@@ -2,11 +2,23 @@
 //  main.swift
 //  BlackfishSample
 //
-//  Created by Eirny on 2/17/16.
-//  Copyright © 2016 Yet Reader Forge. All rights reserved.
-//
 
 import Foundation
+import Blackfish
+import Echo
 
-print("Hello, World!")
+let app = Blackfish()
 
+app.get("/") { request, response in
+    response.send(text: "Hello World!")
+}
+
+app.get("/welcome") { request, response in
+    response.send(text: "Hello")
+}
+
+app.listen(port: 4000) { error in
+    if error == nil {
+        print("BlackfishSample app listening on port 4000")
+    }
+}
