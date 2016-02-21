@@ -1,6 +1,0 @@
-[submodule "blackfish"]
-	path = blackfish
-	url = https://github.com/elliottminns/blackfish.git
-[submodule "echo"]
-	path = echo
-	url = https://github.com/elliottminns/echo.git
