@@ -2,11 +2,12 @@ language: generic
 sudo: required
 dist: trusty
 env:
-    - SWIFT_VERSION=swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a
-    - LINUX_VERSION=ubuntu14.04
-before_install:
+    global:
+        - SWIFT_VERSION=swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a 
+        - LINUX_VERSION=ubuntu14.04
+install:
     - wget -q -O - https://swift.org/keys/all-keys.asc | gpg --import -
-    - wget https://swift.org/builds/development/ubuntu1404/$SWIFT_VERSION/$SWIFT_VERSION-$LINUX_VERSION.tar.gz
+    - wget https://swift.org/builds/development/`echo $LINUX_VERSION|tr -d .`/$SWIFT_VERSION/$SWIFT_VERSION-$LINUX_VERSION.tar.gz
     - tar xzf $SWIFT_VERSION-$LINUX_VERSION.tar.gz
     - export PATH=${PWD}/$SWIFT_VERSION-ubuntu14.04/usr/bin:"${PATH}"
 script:
