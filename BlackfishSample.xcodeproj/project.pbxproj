@@ -11,33 +11,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46AC34641CF7CB5A004DCEDE /* PBXContainerItemProxy */ = {
+		46AC34791CF7CF51004DCEDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46AC345D1CF7CB5A004DCEDE /* Blackfish.xcodeproj */;
+			containerPortal = 46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4FE66DC81C60C29800CDF49D;
 			remoteInfo = "Blackfish-Test";
 		};
-		46AC34661CF7CB5A004DCEDE /* PBXContainerItemProxy */ = {
+		46AC347B1CF7CF51004DCEDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46AC345D1CF7CB5A004DCEDE /* Blackfish.xcodeproj */;
+			containerPortal = 46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4F6A6DC01C657DFE00368F5D;
 			remoteInfo = Blackfish_OSX;
 		};
-		46AC34681CF7CB5A004DCEDE /* PBXContainerItemProxy */ = {
+		46AC347D1CF7CF51004DCEDE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46AC345D1CF7CB5A004DCEDE /* Blackfish.xcodeproj */;
+			containerPortal = 46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4F6A6DC91C657DFE00368F5D;
 			remoteInfo = Blackfish_OSXTests;
-		};
-		46AC346C1CF7CC80004DCEDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46AC345D1CF7CB5A004DCEDE /* Blackfish.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F6A6DBF1C657DFE00368F5D;
-			remoteInfo = Blackfish_OSX;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,7 +49,7 @@
 /* Begin PBXFileReference section */
 		467CAEE51C745AC200ABE269 /* BlackfishSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlackfishSample; sourceTree = BUILT_PRODUCTS_DIR; };
 		467CAEE81C745AC200ABE269 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		46AC345D1CF7CB5A004DCEDE /* Blackfish.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blackfish.xcodeproj; path = blackfish/Xcode/Blackfish.xcodeproj; sourceTree = "<group>"; };
+		46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blackfish.xcodeproj; path = blackfish/Xcode/Blackfish.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,17 +91,17 @@
 		467CAEFB1C745B7800ABE269 /* Submodules */ = {
 			isa = PBXGroup;
 			children = (
-				46AC345D1CF7CB5A004DCEDE /* Blackfish.xcodeproj */,
+				46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */,
 			);
 			name = Submodules;
 			sourceTree = "<group>";
 		};
-		46AC345E1CF7CB5A004DCEDE /* Products */ = {
+		46AC34731CF7CF51004DCEDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46AC34651CF7CB5A004DCEDE /* Blackfish-Test */,
-				46AC34671CF7CB5A004DCEDE /* Blackfish.framework */,
-				46AC34691CF7CB5A004DCEDE /* Blackfish_OSXTests.xctest */,
+				46AC347A1CF7CF51004DCEDE /* Blackfish-Test */,
+				46AC347C1CF7CF51004DCEDE /* Blackfish.framework */,
+				46AC347E1CF7CF51004DCEDE /* Blackfish_OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,7 +120,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				46AC346D1CF7CC80004DCEDE /* PBXTargetDependency */,
 			);
 			name = BlackfishSample;
 			productName = BlackfishSample;
@@ -161,8 +153,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 46AC345E1CF7CB5A004DCEDE /* Products */;
-					ProjectRef = 46AC345D1CF7CB5A004DCEDE /* Blackfish.xcodeproj */;
+					ProductGroup = 46AC34731CF7CF51004DCEDE /* Products */;
+					ProjectRef = 46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -173,25 +165,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		46AC34651CF7CB5A004DCEDE /* Blackfish-Test */ = {
+		46AC347A1CF7CF51004DCEDE /* Blackfish-Test */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "Blackfish-Test";
-			remoteRef = 46AC34641CF7CB5A004DCEDE /* PBXContainerItemProxy */;
+			remoteRef = 46AC34791CF7CF51004DCEDE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		46AC34671CF7CB5A004DCEDE /* Blackfish.framework */ = {
+		46AC347C1CF7CF51004DCEDE /* Blackfish.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Blackfish.framework;
-			remoteRef = 46AC34661CF7CB5A004DCEDE /* PBXContainerItemProxy */;
+			remoteRef = 46AC347B1CF7CF51004DCEDE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		46AC34691CF7CB5A004DCEDE /* Blackfish_OSXTests.xctest */ = {
+		46AC347E1CF7CF51004DCEDE /* Blackfish_OSXTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = Blackfish_OSXTests.xctest;
-			remoteRef = 46AC34681CF7CB5A004DCEDE /* PBXContainerItemProxy */;
+			remoteRef = 46AC347D1CF7CF51004DCEDE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -206,14 +198,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		46AC346D1CF7CC80004DCEDE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Blackfish_OSX;
-			targetProxy = 46AC346C1CF7CC80004DCEDE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		467CAEEA1C745AC200ABE269 /* Debug */ = {
