@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		467CAEE91C745AC200ABE269 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467CAEE81C745AC200ABE269 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46AC34871CF7D2AF004DCEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46AC34801CF7D2AF004DCEDE /* Blackfish.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4FE66DC81C60C29800CDF49D;
+			remoteInfo = "Blackfish-Test";
+		};
+		46AC34891CF7D2AF004DCEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46AC34801CF7D2AF004DCEDE /* Blackfish.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F6A6DC01C657DFE00368F5D;
+			remoteInfo = Blackfish_OSX;
+		};
+		46AC348B1CF7D2AF004DCEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46AC34801CF7D2AF004DCEDE /* Blackfish.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F6A6DC91C657DFE00368F5D;
+			remoteInfo = Blackfish_OSXTests;
+		};
+		46AC348D1CF7D2C6004DCEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46AC34801CF7D2AF004DCEDE /* Blackfish.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F6A6DBF1C657DFE00368F5D;
+			remoteInfo = Blackfish_OSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		467CAEE31C745AC200ABE269 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		467CAEE51C745AC200ABE269 /* Sample-Blackfish */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sample-Blackfish"; sourceTree = BUILT_PRODUCTS_DIR; };
+		467CAEE81C745AC200ABE269 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		46AC34801CF7D2AF004DCEDE /* Blackfish.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blackfish.xcodeproj; path = blackfish/Xcode/Blackfish.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		467CAEE21C745AC200ABE269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		467CAEDC1C745AC200ABE269 = {
+			isa = PBXGroup;
+			children = (
+				467CAEFB1C745B7800ABE269 /* Submodules */,
+				467CAEE71C745AC200ABE269 /* BlackfishSample */,
+				467CAEE61C745AC200ABE269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		467CAEE61C745AC200ABE269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				467CAEE51C745AC200ABE269 /* Sample-Blackfish */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		467CAEE71C745AC200ABE269 /* BlackfishSample */ = {
+			isa = PBXGroup;
+			children = (
+				467CAEE81C745AC200ABE269 /* main.swift */,
+			);
+			path = BlackfishSample;
+			sourceTree = "<group>";
+		};
+		467CAEFB1C745B7800ABE269 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				46AC34801CF7D2AF004DCEDE /* Blackfish.xcodeproj */,
+			);
+			name = Submodules;
+			sourceTree = "<group>";
+		};
+		46AC34811CF7D2AF004DCEDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46AC34881CF7D2AF004DCEDE /* Blackfish-Test */,
+				46AC348A1CF7D2AF004DCEDE /* Blackfish.framework */,
+				46AC348C1CF7D2AF004DCEDE /* Blackfish_OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		467CAEE41C745AC200ABE269 /* Sample-Blackfish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467CAEEC1C745AC200ABE269 /* Build configuration list for PBXNativeTarget "Sample-Blackfish" */;
+			buildPhases = (
+				467CAEE11C745AC200ABE269 /* Sources */,
+				467CAEE21C745AC200ABE269 /* Frameworks */,
+				467CAEE31C745AC200ABE269 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46AC348E1CF7D2C6004DCEDE /* PBXTargetDependency */,
+			);
+			name = "Sample-Blackfish";
+			productName = BlackfishSample;
+			productReference = 467CAEE51C745AC200ABE269 /* Sample-Blackfish */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		467CAEDD1C745AC200ABE269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yet Reader Forge";
+				TargetAttributes = {
+					467CAEE41C745AC200ABE269 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 467CAEE01C745AC200ABE269 /* Build configuration list for PBXProject "Sample-Blackfish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 467CAEDC1C745AC200ABE269;
+			productRefGroup = 467CAEE61C745AC200ABE269 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 46AC34811CF7D2AF004DCEDE /* Products */;
+					ProjectRef = 46AC34801CF7D2AF004DCEDE /* Blackfish.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				467CAEE41C745AC200ABE269 /* Sample-Blackfish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		46AC34881CF7D2AF004DCEDE /* Blackfish-Test */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Blackfish-Test";
+			remoteRef = 46AC34871CF7D2AF004DCEDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46AC348A1CF7D2AF004DCEDE /* Blackfish.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blackfish.framework;
+			remoteRef = 46AC34891CF7D2AF004DCEDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46AC348C1CF7D2AF004DCEDE /* Blackfish_OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Blackfish_OSXTests.xctest;
+			remoteRef = 46AC348B1CF7D2AF004DCEDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467CAEE11C745AC200ABE269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467CAEE91C745AC200ABE269 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46AC348E1CF7D2C6004DCEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Blackfish_OSX;
+			targetProxy = 46AC348D1CF7D2C6004DCEDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		467CAEEA1C745AC200ABE269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		467CAEEB1C745AC200ABE269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		467CAEED1C745AC200ABE269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		467CAEEE1C745AC200ABE269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		467CAEE01C745AC200ABE269 /* Build configuration list for PBXProject "Sample-Blackfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467CAEEA1C745AC200ABE269 /* Debug */,
+				467CAEEB1C745AC200ABE269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467CAEEC1C745AC200ABE269 /* Build configuration list for PBXNativeTarget "Sample-Blackfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467CAEED1C745AC200ABE269 /* Debug */,
+				467CAEEE1C745AC200ABE269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 467CAEDD1C745AC200ABE269 /* Project object */;
+}
