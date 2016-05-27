@@ -7,7 +7,7 @@ import Foundation
 import Blackfish
 import Echo
 
-let app = Blackfish()
+let app = BlackfishApp()
 
 app.get("/") { request, response in
     response.send(text: "Hello World!")
