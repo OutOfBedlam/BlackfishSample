@@ -10,30 +10,6 @@
 		467CAEE91C745AC200ABE269 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467CAEE81C745AC200ABE269 /* main.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		46AC34791CF7CF51004DCEDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4FE66DC81C60C29800CDF49D;
-			remoteInfo = "Blackfish-Test";
-		};
-		46AC347B1CF7CF51004DCEDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F6A6DC01C657DFE00368F5D;
-			remoteInfo = Blackfish_OSX;
-		};
-		46AC347D1CF7CF51004DCEDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F6A6DC91C657DFE00368F5D;
-			remoteInfo = Blackfish_OSXTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		467CAEE31C745AC200ABE269 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -49,7 +25,6 @@
 /* Begin PBXFileReference section */
 		467CAEE51C745AC200ABE269 /* BlackfishSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlackfishSample; sourceTree = BUILT_PRODUCTS_DIR; };
 		467CAEE81C745AC200ABE269 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blackfish.xcodeproj; path = blackfish/Xcode/Blackfish.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,19 +66,8 @@
 		467CAEFB1C745B7800ABE269 /* Submodules */ = {
 			isa = PBXGroup;
 			children = (
-				46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */,
 			);
 			name = Submodules;
-			sourceTree = "<group>";
-		};
-		46AC34731CF7CF51004DCEDE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				46AC347A1CF7CF51004DCEDE /* Blackfish-Test */,
-				46AC347C1CF7CF51004DCEDE /* Blackfish.framework */,
-				46AC347E1CF7CF51004DCEDE /* Blackfish_OSXTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,42 +115,12 @@
 			mainGroup = 467CAEDC1C745AC200ABE269;
 			productRefGroup = 467CAEE61C745AC200ABE269 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 46AC34731CF7CF51004DCEDE /* Products */;
-					ProjectRef = 46AC34721CF7CF51004DCEDE /* Blackfish.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				467CAEE41C745AC200ABE269 /* BlackfishSample */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		46AC347A1CF7CF51004DCEDE /* Blackfish-Test */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "Blackfish-Test";
-			remoteRef = 46AC34791CF7CF51004DCEDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		46AC347C1CF7CF51004DCEDE /* Blackfish.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Blackfish.framework;
-			remoteRef = 46AC347B1CF7CF51004DCEDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		46AC347E1CF7CF51004DCEDE /* Blackfish_OSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Blackfish_OSXTests.xctest;
-			remoteRef = 46AC347D1CF7CF51004DCEDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		467CAEE11C745AC200ABE269 /* Sources */ = {
